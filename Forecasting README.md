@@ -69,3 +69,12 @@ len(data_stations['location_friendlyname'].unique())
 * Testing and plotting of the results is done in the same way as for the LSTM model
 * Model perfomrance is saved to CSV as **result_sum_transformer**
 * User input testing is done in the same way as for the LSTM model
+
+### ARIMA model
+* Data preprocessing: Database connection - drop unnecessary columns - **expand_data** function - **TimeSeriesDataset** class
+* Train and test set
+* Error function: **calculate_mse**
+* **order** contains parameters (p, d, q) for the ARIMA model
+* Training and testing of the model
+* Visualization
+
