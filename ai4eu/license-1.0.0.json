@@ -1,0 +1,18 @@
+{
+    "$schema": "https://raw.githubusercontent.com/acumos/license-manager/master/license-manager-client-library/src/main/resources/schema/1.0.0/license-profile.json",
+    "keyword": "Apache-2.0",
+    "licenseName": "Apache License 2.0",
+    "copyright": {
+      "year": 2023,
+      "company": "Local AI",
+      "suffix": "All Rights Reserved"
+    },
+    "softwareType": "Machine Learning Model",
+    "companyName": "Local AI",
+    "contact": {
+      "name": "Kostas Vlahodimitropoulos",
+      "URL": "https://local-ai.gr/",
+      "email": "kvlahodim@local-ai.gr"
+    },
+    "rtuRequired": false
+  }

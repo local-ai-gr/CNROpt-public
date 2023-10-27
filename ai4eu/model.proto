@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message Input {
+  repeated double utilization = 1; 
+}
+
+message Prediction {
+  repeated double predictedValues = 1;
+}
+
+service Predict {
+  rpc predict_utilization(Input) returns (Prediction);
+}
