@@ -5,7 +5,7 @@ This file explains all the steps in the code (also the data structures, preproce
 * Connecting to the database and dropping of the unnecessary columns results in a dataframe **df**
 
 ### Data preparation
-* **expand_data** function - Dataset is expanded with zero values (for hours when there is no charging) for each EV station -- **expandeed_data_all**
+* **expand_data** function - Dataset is expanded with zero values (for hours when there is no charging) for each EV station -- **expanded_data_all**
   * *list_names* - list of all EV stations
 
 ### User selection
